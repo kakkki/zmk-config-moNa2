@@ -48,10 +48,10 @@
 
         default_layer {
             bindings = <
-&kp TAB           &kp W                   &kp E             &kp R     &kp T                                                      &kp Y        &kp U  &lt 5 I   &kp O     &kp P
-&kp A             &kp S                   &kp D             &kp F     &kp G               &trans                  &kp MINUS      &kp H        &kp J  &kp K     &kp L     &kp SPACE
-&mt LEFT_SHIFT Z  &kp X                   &kp C             &kp V     &kp B               &lt 1 SPACE             &kp SEMICOLON  &kp N        &kp M  &mkp MB1  &mkp MB2  &lt 1 ESCAPE
-&kp Q             &mt LEFT_CONTROL COMMA  &mt LSHFT PERIOD  &kp LCMD  &mt LEFT_ALT LANG1  &mt LEFT_SHIFT LANG2    &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp TAB           &kp W                   &kp E             &kp R     &kp T                                                                &kp Y        &kp U  &lt 5 I   &kp O     &kp P
+&kp A             &kp S                   &kp D             &kp F     &kp G                    &trans                       &kp MINUS      &kp H        &kp J  &kp K     &kp L     &kp ENTER
+&mt LEFT_SHIFT Z  &kp X                   &kp C             &kp V     &kp B                    &lt 1 SPACE                  &kp SEMICOLON  &kp N        &kp M  &mkp MB1  &mkp MB2  &lt 1 ESCAPE
+&kp Q             &mt LEFT_CONTROL COMMA  &mt LSHFT PERIOD  &kp LCMD  &mt LEFT_ALT LANGUAGE_2  &mt LEFT_SHIFT LANGUAGE_1    &kp BACKSPACE  &lt 1 SPACE                             &kp DEL
             >;
 
             sensor-bindings =
@@ -61,10 +61,10 @@
 
         layer_1 {
             bindings = <
-&kp PERCENT     &kp EQUAL    &kp NUMBER_7  &kp N8        &kp NUMBER_9                       &kp EXCLAMATION  &kp QUESTION  &kp F3  &kp F4  &kp F5
-&kp AMPERSAND   &kp MINUS    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &trans     &kp F6           &kp F7        &kp F8  &kp F9  &kp F10
-&kp UNDERSCORE  &kp KP_PLUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans     &trans           &trans        &trans  &trans  &kp F11
-&trans          &trans       &trans        &trans        &trans        &trans    &kp SPACE  &kp ENTER                                      &kp F12
+&kp PERCENT  &kp DOUBLE_QUOTES  &kp NUMBER_7  &kp N8        &kp NUMBER_9                       &kp EXCLAMATION  &kp QUESTION  &kp F3  &kp F4  &kp F5
+&kp DOLLAR   &kp MINUS          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans    &trans     &kp F6           &kp F7        &kp F8  &kp F9  &kp F10
+&kp EXCL     &kp KP_PLUS        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &trans     &trans           &trans        &trans  &trans  &kp F11
+&trans       &trans             &trans        &trans        &trans        &trans    &kp SPACE  &kp ENTER                                      &kp F12
             >;
 
             sensor-bindings = <&scroll_up_down>;
