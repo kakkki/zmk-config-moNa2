@@ -27,7 +27,8 @@
         mission_control_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL &kp UP_ARROW>;
+            bindings = <&kp LEFT_CONTROL &kp UP_ARROW>, <&macro_press>;
+
             label = "NEW_MACRO";
         };
 
